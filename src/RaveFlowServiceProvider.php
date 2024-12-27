@@ -13,11 +13,6 @@ class RaveFlowServiceProvider extends ServiceProvider
             __DIR__.'/../config/flutterwave.php' => config_path('flutterwave.php'),
         ], 'config');
 
-        // Load views
-        $this->loadViewsFrom(__DIR__.'/../resources/views', 'raveflow');
-
-        // Register routes
-        $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
     }
 
     public function register()
