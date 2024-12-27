@@ -1,0 +1,17 @@
+/vendor
+/node_modules
+.phpunit.result.cache
+.phpunit.cache
+composer.lock
+package-lock.json
+.php_cs.cache
+.php-cs-fixer.cache
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+coverage.clover
+.env
+.cusorrules
