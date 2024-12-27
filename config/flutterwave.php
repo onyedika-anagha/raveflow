@@ -15,6 +15,7 @@ return [
     | Environment
     |--------------------------------------------------------------------------
     */
+    
     'is_production' => env('FLW_PRODUCTION', false),
 
     /*
